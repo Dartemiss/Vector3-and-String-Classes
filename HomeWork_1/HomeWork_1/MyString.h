@@ -107,7 +107,7 @@ public:
 	{
 		while ((*(pDestString++) = *(pOrigString++)))
 		{
-			std::cout << "hi" << std::endl;
+			//std::cout << "hi" << std::endl;
 		}
 	}
 
