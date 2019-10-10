@@ -3,9 +3,11 @@
 #include <iostream>
 class MyString
 {
-public:
+private:
 	char* str;
 	unsigned int lengthStr;
+
+public:
 	MyString() 
 	{
 		str = nullptr;
@@ -113,10 +115,7 @@ public:
 
 	void clear()
 	{
-		for(;*(str)!= '\0';str++)
-		{
-			*str = '\0';
-		}
+		*str = '\0';
 		lengthStr = 0;
 	}
 
